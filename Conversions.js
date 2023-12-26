@@ -1,25 +1,25 @@
-a = {}
-console.log(typeof a)
-console.log(Number(a))
-console.log(String (a))
-console.log(Boolean (a))
-b = NaN
-console.log(typeof b)
-console.log(Number(b))
-console.log(String (b))
-console.log(Boolean (b))
-c = -Infinity
-console.log(typeof c)
-console.log(Number(c))
-console.log(String (c))
-console.log(Boolean (c))
-d = function(){}
-console.log(typeof d)
-console.log(Number(d))
-console.log(String (d))
-console.log(Boolean (d))
-e = ["twenty"]
-console.log(typeof e)
-console.log(Number(e))
-console.log(String (e))
-console.log(Boolean (e))
+let a = {};
+console.log("Type of a is " + typeof a);
+console.log("a is number or not: "+ Number(a));
+console.log("a is string or not: " + String (a));
+console.log("a is boolean or not: " + Boolean (a));
+let b = NaN;
+console.log("Type of b is " + typeof b);
+console.log("b is number or not: "+ Number(b));
+console.log("b is string or not: " + String (b));
+console.log("b is boolean or not: " + Boolean (b));
+let c = -Infinity;
+console.log("Type of c is " + typeof c);
+console.log("c is number or not: "+ Number(c));
+console.log("c is string or not: " + String (c));
+console.log("c is boolean or not: " + Boolean (c));
+let d = function(){};
+console.log("Type of d is " + typeof d);
+console.log("d is number or not: "+ Number(d));
+console.log("d is string or not: " + String (d));
+console.log("d is boolean or not: " + Boolean (d));
+let e = ["twenty"];
+console.log("Type of e is " + typeof e);
+console.log("e is number or not: "+ Number(e));
+console.log("e is string or not: " + String (e));
+console.log("e is boolean or not: " + Boolean (e));
